@@ -30,7 +30,7 @@ h1{
 }
 
 .darkBG{
-    background-color: #363636;
+    background-color: hsl(0, 0%, 21%);
     color:white;
 }
 
