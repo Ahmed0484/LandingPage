@@ -1,0 +1,44 @@
+.masthead{
+    background-size: cover;
+    min-height: 100vh;/*90*/
+    position: relative;
+    color: white;
+}
+.title{
+    font-size: 3rem;
+}
+.titleS{
+    font-size: 1.75rem;
+}
+.titleLink{
+    font-size: 1.5rem;
+}
+h1{
+    font-size: 3rem;
+}
+
+.color-overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, .3);
+    height: 100%;
+    width: 100%;
+}
+
+.singleCol{
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.darkBG{
+    background-color: #363636;
+    color:white;
+}
+
+@media(max-width:768px){
+    .masthead{
+        min-height: 100vh;
+    }
+    h1{
+        font-size: calc(1.525rem+3.3vm);
+    }
+}
